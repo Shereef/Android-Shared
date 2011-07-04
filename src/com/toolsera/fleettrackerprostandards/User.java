@@ -5,52 +5,55 @@ package com.toolsera.fleettrackerprostandards;
 
 import java.io.Serializable;
 
-// TODO: Auto-generated Javadoc
 /**
- * The Class User.
- *
+ * The Class User contains a User full information, warning not all fields will
+ * be set at all times. this class implements Serializable to have the ability
+ * to be written to file or sockets
+ * 
  * @author <a href="http://shereef.net">Shereef Marzouk</a>
  */
 public class User implements Serializable {
-	
+
 	/** The Constant serialVersionUID. */
 	private static final long serialVersionUID = 8436377738400549713L;
-	
-	/** The email. */
+
+	/** The user's email. */
 	public String email;
-	
-	/** The firstname. */
+
+	/** The user's first name. */
 	public String firstname;
-	
-	/** The hashedpassword. */
+
+	/** The user's hashed password. */
 	public String hashedpassword;
-	
-	/** The lastname. */
+
+	/** The user's last name. */
 	public String lastname;
-	
-	/** The manager. */
+
+	/** Whether the user is a manager or not. */
 	public int manager;
-	
-	/** The mobile. */
+
+	/** The user's mobile. */
 	public String mobile;
-	
-	/** The uid. */
+
+	/** The user's uid. */
 	public int uid;
-	
-	/** The username. */
+
+	/** The user's user name. */
 	public String username;
 
 	/**
-	 * Instantiates a new user.
+	 * Instantiates a new user, with an invalid manager value (indicates an
+	 * invalid login)
 	 */
 	public User() {
 		manager = -1;
 	}
 
 	/**
-	 * Instantiates a new user.
-	 *
-	 * @param i the i
+	 * Instantiates a new user with a custom manager value.
+	 * 
+	 * @param i
+	 *            the manager value (signed int)
 	 */
 	public User(int i) {
 		manager = i;
