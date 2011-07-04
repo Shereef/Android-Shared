@@ -11,11 +11,11 @@ package com.toolsera.fleettrackerprostandards;
 public class FToAEnums {
 
 	public enum Db {
-		getphone, getusers, getuserscount, login, newuser, setregid;
+		getphone, getusers, getuserscount, login, newuser, setregid, setlocation, getlocation;
 	}
 
 	public enum Msgs {
-		Alarm, C2DMRegister, C2DMRegistered, Chat, Database, Location, LocationUpdate, Popup, Vibration, Volume, Wakelock;
+		Alarm, C2DMRegister, C2DMRegistered, Chat, Database, Location, Popup, Vibration, Volume, Wakelock;
 	}
 
 	public enum RegRes {
