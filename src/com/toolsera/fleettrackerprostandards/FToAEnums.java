@@ -11,7 +11,7 @@ package com.toolsera.fleettrackerprostandards;
 public class FToAEnums {
 
 	public enum Db {
-		getphone, getusers, getuserscount, login, newuser, setregid, setlocation, getlocation;
+		getlocation, getphone, getusers, getuserscount, login, newuser, setlocation, setregid;
 	}
 
 	public enum Msgs {
