@@ -1,7 +1,11 @@
+/*
+ * 
+ */
 package com.toolsera.fleettrackerprostandards;
 
+// TODO: Auto-generated Javadoc
 /**
- * 
+ * The Class FToAEnums.
  */
 
 /**
@@ -10,15 +14,74 @@ package com.toolsera.fleettrackerprostandards;
  */
 public class FToAEnums {
 
+	/**
+	 * The Enum Db.
+	 */
 	public enum Db {
-		getlocation, getphone, getusers, getuserscount, login, newuser, setlocation, setregid;
+		
+		/** The getlocation. */
+		getlocation, 
+ /** The getphone. */
+ getphone, 
+ /** The getusers. */
+ getusers, 
+ /** The getuserscount. */
+ getuserscount, 
+ /** The login. */
+ login, 
+ /** The newuser. */
+ newuser, 
+ /** The setlocation. */
+ setlocation, 
+ /** The setregid. */
+ setregid;
 	}
 
+	/**
+	 * The Enum Msgs.
+	 */
 	public enum Msgs {
-		Alarm, C2DMRegister, C2DMRegistered, Chat, Database, Location, Popup, Vibration, Volume, Wakelock;
+		
+		/** The Alarm. */
+		Alarm, 
+ /** The C2 dm register. */
+ C2DMRegister, 
+ /** The C2 dm registered. */
+ C2DMRegistered, 
+ /** The Chat. */
+ Chat, 
+ /** The Database. */
+ Database, 
+ /** The Location. */
+ Location, 
+ /** The Popup. */
+ Popup, 
+ /** The Vibration. */
+ Vibration, 
+ /** The Volume. */
+ Volume, 
+ /** The Wakelock. */
+ Wakelock;
 	}
 
+	/**
+	 * The Enum RegRes.
+	 */
 	public enum RegRes {
-		EmailAlreadyUsed, EmailInvalid, Success, Timeout, UnhandeledException, UsernameAlreadyUsed, UserNameInvalid;
+		
+		/** The Email already used. */
+		EmailAlreadyUsed, 
+ /** The Email invalid. */
+ EmailInvalid, 
+ /** The Success. */
+ Success, 
+ /** The Timeout. */
+ Timeout, 
+ /** The Unhandeled exception. */
+ UnhandeledException, 
+ /** The Username already used. */
+ UsernameAlreadyUsed, 
+ /** The User name invalid. */
+ UserNameInvalid;
 	}
 }
