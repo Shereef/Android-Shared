@@ -9,7 +9,7 @@ import java.io.Serializable;
 /**
  * The Class User.
  *
- * @author Shereef Marzouk
+ * @author <a href="http://shereef.net">Shereef Marzouk</a>
  */
 public class User implements Serializable {
 	

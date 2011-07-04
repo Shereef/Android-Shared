@@ -9,7 +9,7 @@ package com.toolsera.fleettrackerprostandards;
  */
 
 /**
- * @author Shereef Marzouk
+ * @author <a href="http://shereef.net">Shereef Marzouk</a>
  * 
  */
 public class FToAEnums {
