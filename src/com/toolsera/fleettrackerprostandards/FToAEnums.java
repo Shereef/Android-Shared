@@ -22,8 +22,7 @@ public class FToAEnums {
 		 * When a manager is requesting to get the location of a specific
 		 * employee.
 		 */
-		getlocation,
-		getlocationupdate,
+		getlocation, getlocationupdate,
 		/**
 		 * When a manager is requesting to get the phone of a specific employee.
 		 */
