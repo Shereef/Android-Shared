@@ -58,4 +58,16 @@ public class User implements Serializable {
 	public User(int i) {
 		manager = i;
 	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "User [email=" + email + ", firstname=" + firstname
+				+ ", hashedpassword=" + hashedpassword + ", lastname="
+				+ lastname + ", manager=" + manager + ", mobile=" + mobile
+				+ ", uid=" + uid + ", username=" + username + ", getClass()="
+				+ getClass() + ", hashCode()=" + hashCode() + "]";
+	}
 }
