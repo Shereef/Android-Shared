@@ -59,7 +59,9 @@ public class User implements Serializable {
 		manager = i;
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see java.lang.Object#toString()
 	 */
 	@Override

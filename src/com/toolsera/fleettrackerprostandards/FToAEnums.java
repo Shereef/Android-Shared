@@ -83,7 +83,7 @@ public class FToAEnums {
 		 * This specifies for the server that the android needs something fro
 		 * mthe database so that the server can enter the following switch case.
 		 */
-		Database,
+		Database, gpsprovidordisabled,
 		/**
 		 * The server notifies the emlpoyee's device that i needs to update it's
 		 * Location.
@@ -92,7 +92,7 @@ public class FToAEnums {
 		/** a notification message sent from the Manager to the Employee. */
 		Popup,
 		/** a vibration request for x seconds from the manager to the employee. */
-		Vibration,
+		stoplocationupdates, Vibration,
 		/**
 		 * The manager requests to change the volume of the device with the
 		 * direction increase or decrease.
